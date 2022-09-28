@@ -1,0 +1,80 @@
+.landing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.landing p, h1{
+    text-align: center;
+}
+.landing img{
+    width: 35%;
+
+}
+.btn.btn-primary, .btn.btn-danger{
+    width: 290px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  
+}
+.login h1{
+    padding-top: 110px;
+}
+
+.login p{
+/* margin-bottom: 0px; */
+}
+form {
+    text-align: left;
+}
+form input{
+    width: 290px;
+    /* margin-bottom: 40px; */
+}
+form label{
+    margin-top: 30px;
+    color: #949494;
+}
+
+
+.login span{
+    font-weight: bold;
+}
+
+
+
+
+.container-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.container-signup form input{
+    width: 400px;
+    padding-right: 0;
+}
+
+.emailerro, .numbererror, .FullNameerror, .passwarderror{
+    margin-bottom: 40px;
+}
+button{
+    color: white;
+}
+
+form .btn.btn-primary{
+    margin-top: 50px;
+}
